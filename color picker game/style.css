@@ -1,0 +1,39 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: #000;
+	color: #fff;
+	font-family: Arial, sans-serif;
+}
+
+#game-board {
+	position: relative;
+	height: 400px;
+	width: 600px;
+	border: 1px solid #fff;
+}
+
+#paddleA, #paddleB, #ball {
+	position: absolute;
+	background: #fff;
+}
+
+#paddleA, #paddleB {
+	width: 15px;
+	height: 80px;
+}
+
+#paddleA {
+	left: 50px;
+}
+
+#paddleB {
+	right: 50px;
+}
+
+#ball {
+	height: 15px;
+	width: 15px;
