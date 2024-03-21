@@ -1,0 +1,236 @@
+1)let carName = "Volvo";
+2)let x = 50
+3)let x = 5;
+  let y = 10;
+  document.getElementById("demo").innerHTML = x + y;
+4)let x = 5;
+  let y = 10;
+  let z = x + y;
+  alert(z);
+5)let firstName = "priyanka",lastName = "k",age = 22;
+6)alert(10 * 5);
+7)alert(10 / 2);
+8)alert(15 % 9);
+9)x = 10;
+  y = 5;
+  x += y;
+10)x = 10;
+   y = 5;
+   x *= y;
+11)let length = 16;          // Number
+   let lastName = "Krshinae Gowda"; // String
+   const x = {
+     firstName: "Priyanka",
+     lastName: "k"
+   };                        // Object
+12)
+function myFunction() {
+  alert("Hello World!");
+}
+myFunction();
+13)
+function myFunction(){
+  alert("Hello World!");
+}
+14)
+function myFunction() {
+  return "Hello";
+}
+document.getElementById("demo").innerHTML = myFunction();
+15)
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello";
+}
+16)
+const person = {
+  firstName: "John",
+  lastName: "Doe"
+};
+alert(person.firstName);
+17)const person = {
+  firstName: "Priyanka",
+  lastName: "k",
+  country: "India"
+};
+18)
+const person = {
+  name:"Neha", age:22
+};
+alert(person.name + " is " + person.age);
+19)<button onclick="alert('Hello')">Click me.</button>
+20)<button onclick="myFunction()">Click me.</button>
+21) <div onmouseover="this.style.backgroundColor='red'">myDIV.</div>
+22)
+let txt = "Hello World!";
+let x = txt.length;
+alert(x);
+23)
+let txt = "We are \"Vikings\"";
+alert(txt);
+24)
+let str1 = "Hello ";
+let str2 = "World!";
+alert(str1+str2);
+25)
+let txt = "Hello World!";
+txt = txt.toUpperCase();
+26)
+let txt = "I can eat bananas all day";
+let x = txt.slice(10, 17);
+27)
+let txt = "Hello World";
+txt = txt.replace("Hello", "Welcome");
+28)
+let txt = "Hello World";
+txt = txt.toUpperCase();
+29)
+let txt = "Hello World";
+txt = txt.toLowerCase();
+30) const cars = ["Saab", "Volvo", "BMW"];
+    let x = cars[1];
+31) const cars = ["Volvo", "Jeep", "Mercedes"];
+    cars[0] = "Ford";
+32) const cars = ["Volvo", "Jeep", "Mercedes"];
+    alert(cars.length);
+33)const fruits = ["Banana", "Orange", "Apple"];
+   fruits.pop();
+34)const fruits = ["Banana", "Orange", "Apple"];
+   fruits.push("Kiwi");
+35)const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+   fruits.splice(1, 2);
+36)const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+   fruits.sort();
+37)const d = new Date();
+   alert(d);
+38)const d = new Date();
+   year = d.getFullYear();
+39)const d = new Date();
+   month = d.getMonth();
+40)const d = new Date();
+   d.setFullYear(2020);
+41)let r = Math.random();
+42)let x = Math.max(10, 20);
+43)let x = Math.round(5.3);
+44)let x = Math.sqrt(9);
+45)x = 10;
+   y = 5;
+   alert(x >y);
+46)x = 10;
+   y = 10;
+   alert(x == y);
+47)x = 10;
+   y = 5;
+   alert(x != y);
+48)var age = n;
+   var voteable = (age < 18) ? "Too young" :"Old enough";
+   alert(voteable);
+49)if (x > y){
+    alert("Hello World");
+   }
+50)
+if (x > y) {
+  alert("Hello World");
+} else{
+  alert("Goodbye");
+}
+51)
+switch(fruits) {
+  case "Banana":
+    alert("Hello")
+    break;
+  case "Apple":
+    alert("Welcome")
+    break;    
+}
+52)switch(fruits) {
+   case "Banana":
+     alert("Hello")
+     break;
+   case "Apple":
+     alert("Welcome")
+     break;
+   default:
+     alert("Neither");
+   }
+53)
+let i;
+for(i = 0;i < 10; i++) {
+  console.log(i);
+}
+54)
+const fruits = ["Apple", "Banana", "Orange"];
+for (x of fruits) {
+  console.log(x);
+}
+55)
+let i = 0;
+while (i <10) {
+  console.log(i);
+  i++
+}
+56)
+let i = 0;
+while (i < 10) {
+  console.log(i);
+  i=i+2;
+}
+57)
+for (i = 0; i < 10; i++) {
+  console.log(i);
+  if (i == 5) {
+    break;
+  }
+}
+58)
+for (i = 0; i < 10; i++) {
+  if (i == 5) {
+    continue;
+  }
+  console.log(i);
+}
+59)
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = "Hello";
+</script>
+60)
+<p id="demo"></p>
+<script>
+document.getElementsByTagName("p")[0].innerHTML = "Hello";
+</script>
+61)
+<p class="test"></p>
+<p class="test"></p>
+<script>
+document.getElementsByClassName("test")[0].innerHTML = "Hello";
+</script>
+62)
+<img id="image" src="https://tse2.mm.bing.net/th?id=OIP.s9nLcUeK6EBVn9VqiQQuKAHaFU&pid=Api&P=0&h=180">
+<script>
+document.getElementById("image").src = "https://tse4.mm.bing.net/th?id=OIP.Z5iajfFKkXp6d_z6beMYqQHaE6&pid=Api&P=0&h=180";
+</script>
+63)
+<input type="text" id="myText" value="Hello">
+<script>
+document.getElementById("myText").value = "Have a nice day!";
+</script>
+64)
+<p id="demo"></p>
+<script>
+document.getElementById("demo").style.color = "red";
+</script>
+65)
+<p id="demo"></p>
+<script>
+document.getElementById("demo").style.fontSize = "40px";
+</script>
+66)
+<p id="demo"></p>
+<script>
+document.getElementById("demo").style.display = "none";
+</script>
+67)
+<button id="demo">Click me1</button>
+<script>
+document.getElementById("demo").addEventListener("click", myFunction);
+</script>
